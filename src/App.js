@@ -8,6 +8,7 @@ import { DonateCl, HomePage } from './Pages';
 import Options from './Pages/Options/options';
 import Addclothes from './Pages/Addclothes/addclothes';
 import Success from './Pages/Success/success';
+import Display from './Pages/Display/display';
 import MainPage from './Pages/MainPage/MainPage';
 import Signup from './Pages/Signup/Signup'
 
@@ -24,8 +25,9 @@ function App() {
          <Route path='/home' element={<HomePage/>}/>
          <Route path='/donate-cl' element={<DonateCl/>}/>
          <Route path='/option-button' element={<Options/>}/>
-        <Route path='/add-clothes' element={<Addclothes/>}/>
-        <Route path='/success-page' element={<Success/>}/>
+         <Route path='/add-clothes' element={<Addclothes/>}/>
+         <Route path='/success-page' element={<Success/>}/>
+         <Route path='/displaycloth' element={<Display/>}/>
        </Routes>
       </BrowserRouter>
     </div>
