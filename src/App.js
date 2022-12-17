@@ -8,12 +8,16 @@ import { DonateCl, HomePage } from './Pages';
 import Options from './Pages/Options/options';
 import Addclothes from './Pages/Addclothes/addclothes';
 import Success from './Pages/Success/success';
+import MainPage from './Pages/MainPage/MainPage';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
        <Routes>
+       <Route path='/' element={<MainPage/>}/>
+         
+         
          <Route path='/user-login' element={<LoginPag/>}/>
          <Route path='/acc-create' element={<AccountCreate/>}/>
          <Route path='/home' element={<HomePage/>}/>
