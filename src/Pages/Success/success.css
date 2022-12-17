@@ -1,0 +1,8 @@
+.text{
+  background-size:cover;
+  width:100%;
+  height:1000px;
+  padding-top:200px;
+  background-repeat: no-repeat;
+  background-image:url("https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHNob3B8ZW58MHx8MHx8&w=1000&q=80");
+}
