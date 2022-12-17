@@ -1,0 +1,128 @@
+.main{
+    display:flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:url("https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHNob3B8ZW58MHx8MHx8&w=1000&q=80");
+    width:100%;
+    height:1000px;
+    font-size: 25px;
+    
+}
+.box1{
+    height:550px;
+    width:450px;
+    background-color:rgb(237, 236, 210);
+    border-style: solid;
+    border-color: black;
+    
+}
+.box2{
+    height:550px;
+    width:450px;
+    background-color:rgb(237, 236, 210);
+    
+    border-style: solid;
+    border-color: black;
+}
+.box3{
+    height:550px;
+    width:450px;
+    background-color:rgb(237, 236, 210);
+    
+    border-style: solid;
+    border-color: black;
+}
+.box4{
+    height:550px;
+    width:450px;
+    background-color:rgb(237, 236, 210);
+   
+    border-style: solid;
+    border-color: black;
+}
+.box5{
+    height:550px;
+    width:450px;
+    background-color:rgb(237, 236, 210);
+   
+    border-style: solid;
+    border-color: black;
+}
+.box6{
+    height:550px;
+    width:450px;
+    background-color:rgb(237, 236, 210);
+   
+    border-style: solid;
+    border-color: black;
+}
+.image1{
+    height:400px;
+    width:450px;
+    background-color:palegoldenrod;
+    border-style: solid;
+    border-color: black;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+    background-image: url("https://imgmedia.lbb.in/media/2020/05/5eac0e7c833b2b7acdc583b2_1588334204878.jpg");
+}
+.image2{
+    height:400px;
+    width:450px;
+    background-color:palegoldenrod;
+    border-style: solid;
+    border-color: black;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoAHc5mLwjiI8tJvGQb1G6TbYcWAgw7aGzuA&usqp=CAU");
+}
+.image3{
+    height:400px;
+    width:450px;
+    background-color:palegoldenrod;
+    border-style: solid;
+    border-color: black;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+    background-image: url("https://media.gq-magazine.co.uk/photos/60f9a50fee3fa245febc7687/master/w_1920,h_1280,c_limit/Trousers_0000_Everlane.jpg");
+}
+.image4{
+    height:400px;
+    width:450px;
+    background-color:palegoldenrod;
+    border-style: solid;
+    border-color: black;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+    background-image: url("https://m.media-amazon.com/images/I/91x1ESJXJfL._AC_UL1500_.jpg");
+}
+.image5{
+    height:400px;
+    width:450px;
+    background-color:palegoldenrod;
+    border-style: solid;
+    border-color: black;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+    background-image: url("https://webmerx.sgp1.cdn.digitaloceanspaces.com/ethnicroop/product_images/1630995912.ER151-5382-ROOSEBERY.jpeg");
+}
+.image6{
+    height:400px;
+    width:450px;
+    background-color:palegoldenrod;
+    border-style: solid;
+    border-color: black;
+    background-size:cover;
+   
+    background-repeat: no-repeat;
+    background-image: url("https://4.imimg.com/data4/AQ/SD/MY-13375828/school-tie-500x500.jpg");
+}
