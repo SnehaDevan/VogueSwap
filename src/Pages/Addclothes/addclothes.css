@@ -1,0 +1,65 @@
+.text{
+    width:100%;
+  height:200px;
+  font-size: 30px;
+}
+.main{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image:url("https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHNob3B8ZW58MHx8MHx8&w=1000&q=80");
+  width:100%;
+  height:1000px;
+}
+.but1{
+
+  border-radius:50px;
+  width: 100px;
+  font-size: 20px;
+}
+.but1:hover{
+  
+  background-color:palegoldenrod;
+}
+.but2:hover{
+  
+  background-color:palegoldenrod;
+}
+.but3:hover{
+  
+  background-color:palegoldenrod;
+}
+.but2{
+  border-radius:50px;
+  font-size: 20px;
+}
+.but3{
+  border-radius:50px;
+  font-size: 20px;
+}
+
+.buttons2{
+  width: 100%;  
+  height:200px;
+  flex-direction:column; 
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}
+.buttons1{
+  width: 100%;  
+  height:200px;
+  flex-direction:column; 
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+}
+buttons3{
+  width: 100%;  
+  height:200px;
+  display: flex;  
+  flex-direction:column; 
+  justify-content: center;  
+  align-items: center;  
+  
+}
+
