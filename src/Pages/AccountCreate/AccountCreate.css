@@ -1,0 +1,82 @@
+.acc_reg_main
+{
+   
+     /* background-color:  #77A7CA; */
+     background-image: url(
+        "https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHNob3B8ZW58MHx8MHx8&w=1000&q=80");
+        background-size: cover;
+      min-height: 130vh; 
+     flex-direction: column ;
+     display: flex;
+     padding: 7rem;
+}
+.signup__title{
+    color: #0062CC;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+.acc_form{
+    display: flex;
+    background: rgba(14, 7, 7, 0.25);
+}
+.su__input{
+    align-items: center;
+   
+    height: 2rem; 
+    width : 15rem;
+    border-radius: 10px;
+    border-color: #ffff;
+    display:flex;
+    flex-direction: column;
+
+}
+.donor_reg_button
+{
+    background-color: #0062CC;
+    /* position: fixed; */
+    width: 15rem;
+    height: 2.6rem;
+    left: 0px;
+    top: 0px;
+    box-shadow: 4px 4px 12px #05182D, inset 4px 4px 14px rgba(255, 255, 255, 0.25);
+    border-radius: 1.25rem;
+    color: #ffff;
+    overflow: contain;
+}
+.donor_reg_button:hover{
+    color: light blue;
+    background-color: none;
+}
+
+.donor_reg_inputs
+{
+    
+   border-radius: 10px;
+    height: 0.5rem;
+     padding :8px 8px;
+    margin: 8px 0;
+   border-color: #ffff;
+
+}
+.content_su{
+    width : 100%;
+    gap : 2rem;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; 
+}
+  
+
+.acc_reg_heading{
+    color: #ffff;
+    font-size: rem;
+}
+
+.container{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 4%;
+  }
+  
