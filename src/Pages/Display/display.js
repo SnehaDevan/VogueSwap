@@ -1,8 +1,11 @@
 import React from 'react';
 import './display.css';
+
 const App = () => {
     return( 
+       
        <div className="main">
+           
            <div className="box1">
             <div className="image1">
                

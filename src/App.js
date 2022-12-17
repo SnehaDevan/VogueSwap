@@ -9,6 +9,7 @@ import Options from './Pages/Options/options';
 import Addclothes from './Pages/Addclothes/addclothes';
 import Success from './Pages/Success/success';
 import Display from './Pages/Display/display';
+import MainPage from './Pages/MainPage/MainPage';
 
 function App() {
   return (
