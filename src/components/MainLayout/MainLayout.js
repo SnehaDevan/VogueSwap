@@ -4,11 +4,14 @@ import Navbar from '../Navbar/Navbar'
 
 const MainLayout = ({children}) => {
   return (
+    <>
+     <Navbar/>
     <div classname='main_layout'>
-       {/* <Navbar/>  */}
+    
       
       {children}
     </div>
+    </>
   )
 }
 
