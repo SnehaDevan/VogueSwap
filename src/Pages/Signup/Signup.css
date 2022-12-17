@@ -1,0 +1,73 @@
+.login__form_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 150vh;
+    /* background-color: #77A7CA; */ 
+    background-image:  url(
+      "https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHNob3B8ZW58MHx8MHx8&w=1000&q=80");
+        background-size: cover;
+  }
+  .login_form__container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    padding:3rem;
+    color-scheme:inherit;
+  }
+  .login__button{
+    background-color: #0062CC;
+    height: 2rem;
+    color: #ffff;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 4px 4px 12px #05182D, inset 4px 4px 14px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    overflow: contain;
+  }
+  .login__input{
+    /* height: 48px; */
+     font-family: inherit;
+    display: flex;
+    font: size 2rem;;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: #ffff;
+  }
+  .login__header{
+    color: #ffff;
+    font-size: 2rem;
+    padding: 20px 40px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 48px;
+    align-self:center;
+  }
+  .login__form{
+    display: flex;
+    background: rgba(14, 7, 7, 0.25);
+    padding: 3rem;
+    /* height: 20rem; */
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 8px;
+    padding-bottom: 20px;
+  }
+  .forgotpassword{
+        color: black;
+        font-size: 70%;
+    
+    }
+  .right-p{
+    margin-top: 2%;
+    
+    }
+    .right-login-form{
+        /* width: 50%;
+        margin-top: 8%; */
+        align-items: center;
+    }
