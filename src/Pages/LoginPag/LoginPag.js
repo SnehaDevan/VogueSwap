@@ -4,6 +4,7 @@ import MainLayout from '../../components/MainLayout/MainLayout'
 
 import './LoginPag.css'
 
+import { Link } from 'react-router-dom'
 const LoginPag = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const LoginPag = () => {
         <input className='login__input' type="text"  placeholder='Email Id' required/>
       
         <input className='login__input' type="password"   placeholder='password' required />
-        <button className='login__button'>LOG IN</button>
+        <Link to="/acc-create"><button className='login__button'>LOG IN</button></Link>
         <a className="forgotpassword" href='#'>HAVE YOU FORGOTTEN YOUR PASSWORD?</a>
 
         <div className='right-login-form'>

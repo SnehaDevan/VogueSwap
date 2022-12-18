@@ -2,7 +2,7 @@ import React from 'react'
 import './Signup.css'
 import MainLayout from '../../components/MainLayout/MainLayout'
 
-
+import { Link } from 'react-router-dom'
 
 const LoginPag = () => {
   return (

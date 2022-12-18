@@ -24,7 +24,7 @@ const Navbar = () => {
         </Link>
 
         <Link to="drives" spy={true} activeClass="active" smooth={true} offset={0} duration={500} className='Navbar_item'>
-          Drives
+          Donation Centres
         </Link>
 
         

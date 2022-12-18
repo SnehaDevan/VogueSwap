@@ -15,7 +15,10 @@ const Landing = () => {
             </div>
             <div className='Landing_buttons'>
                 <div className='todonate'><button onClick={()=>{navigate('/donate-cl')}}>To Donate</button></div>
+                <div className='needblood'><button onClick={()=>{navigate('/displaycloth')}}>To Barter</button></div>
                 <div className='needblood'><button onClick={()=>{navigate('/user-login')}}>To sell</button></div>
+                <div className='needblood'><button onClick={()=>{navigate('/')}}>To buy</button></div>
+
             </div>
         </div>
         <div className='Landing_pic'>

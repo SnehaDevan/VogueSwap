@@ -2,36 +2,38 @@ import React from 'react';
 import './addclothes.css';
 
 
-
+import { Link } from 'react-router-dom'
+import MainLayout from '../../components/MainLayout/MainLayout';
 
 const App = () => {
     return (
-      
-      <div className ="main">
+      <MainLayout>
+      <div className ="main_add">
 
-      <div className="text">
-        <h1>START BY ADDING CLOTHES!!</h1>
+      <div className="text_main">
+        <h4>START BY ADDING CLOTHES!!</h4>
       </div>
 
       <div className="addimage">
         
           <h2>Image:</h2>
-          <button  type="submit"  className="but1" style={{ width: "150px", height: "50px",}}>Choose File</button>
+          </div>
+         <Link to='/'><button  type="submit"  className="but1" style={{ width: "150px", height: "50px",}}>Add File</button></Link>
           
 
           
-          <button  type="submit"  className="but2" style={{ width: "150px", height: "50px",}} >Add Category</button>
+         <Link to='/'> <button  type="submit"  className="but2" style={{ width: "150px", height: "50px",}} >Add Category</button></Link>
           
 
         
-          <button  type="submit"  className="but2" style={{ width: "150px", height: "50px",}}>Add Size</button>
+         <Link to='/'><button  type="submit"  className="but2" style={{ width: "150px", height: "50px",}}>Add Size</button></Link>
      
       </div> 
     
       
      
      
-   </div>
+      </MainLayout>
           
     );
   }
