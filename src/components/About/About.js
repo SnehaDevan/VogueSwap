@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import abtdonate from '../../assets/abtdonate.png'
-import Barter from '../../assets/Barter.png'
+ import Barter from '../../assets/Barter.png'
 import giftbx from '../../assets/giftbx.png'
 const About = () => {
   return (

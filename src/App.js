@@ -10,6 +10,7 @@ import Addclothes from './Pages/Addclothes/addclothes';
 import Success from './Pages/Success/success';
 import Display from './Pages/Display/display';
 import MainPage from './Pages/MainPage/MainPage';
+import Signup from './Pages/Signup/Signup'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
        <Routes>
        <Route path='/' element={<MainPage/>}/>
          
-         
+       <Route path='/user-signup' element={<Signup/>}/>
          <Route path='/user-login' element={<LoginPag/>}/>
          <Route path='/acc-create' element={<AccountCreate/>}/>
          <Route path='/home' element={<HomePage/>}/>

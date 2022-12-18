@@ -2,7 +2,7 @@ import React from 'react'
 import './AccountCreate.css'
 import MainLayout from '../../components/MainLayout/MainLayout'
 
-
+import { Link } from 'react-router-dom'
 
 function AccountCreate() {
   return (
@@ -36,7 +36,7 @@ function AccountCreate() {
         </div>
        
        
-        <button  type='submit '  className='donor_reg_button'>SignUp</button>
+        <Link to="/add-clothes"><button  type='submit '  className='donor_reg_button'>SignUp</button></Link>
 
         
        

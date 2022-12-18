@@ -1,6 +1,6 @@
 import React from 'react'
-import shoe from '../../assets/shoe.png'
-import cloth from '../../assets/cloth.png'
+ import shoe from '../../assets/shoes.png'
+ import cloth from '../../assets/cloth.png'
 function Donateto() {
   return (
     <div>
@@ -11,23 +11,23 @@ function Donateto() {
 
             </div>
             <div className='card_icon'>
-            <div className='Abt_findBlood'>
+            <div className='Abt_findicon'>
                     <div><img src={shoe}/></div>
                     <h4>Shoe</h4>
                 </div>
-            <div className='Abt_findBlood'>
+            <div className='Abt_findicon'>
                     <div><img src={cloth}/></div>
                     <h4>Menswear</h4>
                 </div>  
-                <div className='Abt_findBlood'>
+                <div className='Abt_findicon'>
                     <div><img src={cloth}/></div>
                     <h4>Womenswear</h4>
                 </div>   
-                <div className='Abt_findBlood'>
+                <div className='Abt_findicon'>
                     <div><img src={cloth}/></div>
                     <h4>Kidswear</h4>
                 </div>
-                <div className='Abt_findBlood'>
+                <div className='Abt_findicon'>
                     <div><img src={cloth}/></div>
                     <h4>Traditional wear</h4>
                 </div>

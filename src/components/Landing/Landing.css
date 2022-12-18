@@ -8,6 +8,8 @@
     background-image:url(
         "https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlcyUyMHNob3B8ZW58MHx8MHx8&w=1000&q=80") ;   
     color: whitesmoke;
+    background-repeat:no-repeat ;
+    background-size: cover;
     
 }
 .Landing_content{
@@ -22,6 +24,7 @@
 .Landing_title{
     font-family: 'Laila';
     font-style: normal;
+    color: rgb(53, 46, 22);
     font-weight: 400;
     font-size: 8.5rem;
     padding-left: 0px;
@@ -30,7 +33,7 @@
     font-family: 'Raleway';
     font-weight: 300;
     font-size: 3rem;
-    color: #E3E3E3;
+    color: #271e02;
 
     max-width: 40.25rem;
 }
@@ -39,13 +42,14 @@
     flex-direction: row;
     align-items: flex-start;
     padding-top: 4rem;
+    color: #dbae27;
     
 }
 .Landing_buttons button{
     border: none;
-    background: #D9D9D9;    
+    background: #c4b31b;    
     border-radius: 71px;
-    color: #77A7CA;
+    color: #10293a;
     height: 2.25rem;
     width: 6.5rem;
     padding: .5rem;

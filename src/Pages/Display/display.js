@@ -1,17 +1,20 @@
 import React from 'react';
 import './display.css';
-
+import { Link } from 'react-router-dom'
 const App = () => {
     return( 
        
        <div className="main">
            
-           <div className="box1">
+         <Link to='/success-page'> 
+         <div className='sample'>
+         <div className="box1">
             <div className="image1">
                
             </div>
             <p>Category:Shirt</p>
             <p>Size:XL</p>
+            
            </div>
            <div className="box2">
             <div className="image2">
@@ -48,6 +51,8 @@ const App = () => {
                <p>Category:Tie</p>
                <p>Size:S</p>
            </div>
+           </div>
+           </Link>
        </div>
     );
 

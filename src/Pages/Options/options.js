@@ -1,27 +1,28 @@
 import React from 'react';
-
+import MainLayout from '../../components/MainLayout/MainLayout';
+import { Link } from 'react-router-dom'
 
 import './options.css'
 
 const App = () => {
   return (
-	
+	<MainLayout>
     <div className ="buttons">
 
-		     <div className="text">
-			<h1>Start shopping Now!!</h1>
+		     <div className="text_op">
+			<h4>Start shopping Now!!</h4>
 		    </div>
             <div className="buttons2">
 
-            <button className="but1" type="submit" style={{ width: "150px", height: "80px",}} >Barter</button>
+            <Link to='/'><button className="but1" type="submit" style={{ width: "150px", height: "80px",}} >Barter</button></Link>
 
-            <button className="but2" type="submit" style={{ width: "150px", height: "80px",}}>Add clothes</button>
+            <Link to='/add-clothes'> <button className="but2" type="submit" style={{ width: "150px", height: "80px",}}>Add clothes</button></Link>
 
-            <button className="but3" type="submit" style={{ width: "150px", height: "80px",}}>Donate</button>
+            <Link to='/donate-cl'> <button className="but3" type="submit" style={{ width: "150px", height: "80px",}}>Donate</button></Link>
 
 		    </div>
         </div>
-		
+        </MainLayout>
   );
 }
 
